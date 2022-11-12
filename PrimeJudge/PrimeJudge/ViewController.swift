@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var primeText: UILabel!
+    @IBOutlet weak var evenText: UILabel!
     
     var count : Int = 0;
     @IBOutlet weak var countText: UITextField!
@@ -29,10 +30,17 @@ class ViewController: UIViewController {
                 primeText.text = "判別不可"
             }
         }else{
-            primeText.text = "偶数"
+            primeText.text = "合成数"
             if(count < 2){
                 primeText.text = "判別不可"
             }
+        }
+        if(judgeEven(number: count)){
+            evenText.text = "偶数"
+            evenText.textColor = UIColor.red
+        }else{
+            evenText.text = "奇数"
+            evenText.textColor = UIColor.blue
         }
     }
     
@@ -45,13 +53,27 @@ class ViewController: UIViewController {
                 primeText.text = "判別不可"
             }
         }else{
-            primeText.text = "偶数"
+            primeText.text = "合成数"
             if(count < 2){
                 primeText.text = "判別不可"
             }
         }
+        if(judgeEven(number: count)){
+            evenText.text = "偶数"
+            evenText.textColor = UIColor.red
+        }else{
+            evenText.text = "奇数"
+            evenText.textColor = UIColor.blue
+        }
     }
     
+    func judgeEven(number:Int) -> Bool{
+        if (number % 2 == 0){
+            return true
+        }else{
+            return false
+        }
+    }
     func judgePrime(num: Int) -> Bool{
         var booljudge : Bool = true;
         if(num < 2){

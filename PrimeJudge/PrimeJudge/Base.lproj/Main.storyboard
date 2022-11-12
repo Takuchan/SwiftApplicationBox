@@ -57,6 +57,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="偶数" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17v-yj-jDL">
+                                <rect key="frame" x="167" y="176" width="41" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -65,9 +71,13 @@
                             <constraint firstItem="5BC-sl-Huv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="7um-J4-XZU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ewV-9Y-QSu" secondAttribute="trailing" constant="60" id="9Gh-K5-Vf0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5BC-sl-Huv" secondAttribute="bottom" constant="60" id="9ce-Kp-7xY"/>
+                            <constraint firstItem="ewV-9Y-QSu" firstAttribute="top" secondItem="17v-yj-jDL" secondAttribute="bottom" id="Bfa-je-XVk"/>
                             <constraint firstItem="bBa-IY-1P1" firstAttribute="top" secondItem="ewV-9Y-QSu" secondAttribute="bottom" constant="4" id="Bq6-BF-YzT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="17v-yj-jDL" secondAttribute="trailing" constant="167" id="Byg-zf-c3u"/>
                             <constraint firstItem="ewV-9Y-QSu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="I50-mJ-I5s"/>
                             <constraint firstItem="ewV-9Y-QSu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="Ksy-An-TBU"/>
+                            <constraint firstItem="17v-yj-jDL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="167" id="Lyk-70-GkM"/>
+                            <constraint firstItem="17v-yj-jDL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Njy-7h-lkf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1tA-oE-wPl" secondAttribute="trailing" constant="16" id="Wez-UM-SV3"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bBa-IY-1P1" secondAttribute="trailing" constant="80" id="ZPm-3a-1dl"/>
                             <constraint firstItem="bBa-IY-1P1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="kDn-6o-UEk"/>
@@ -76,6 +86,7 @@
                     </view>
                     <connections>
                         <outlet property="countText" destination="bBa-IY-1P1" id="8WO-dL-RPB"/>
+                        <outlet property="evenText" destination="17v-yj-jDL" id="ypO-AH-XOZ"/>
                         <outlet property="primeText" destination="ewV-9Y-QSu" id="xcf-Ji-OF5"/>
                     </connections>
                 </viewController>
