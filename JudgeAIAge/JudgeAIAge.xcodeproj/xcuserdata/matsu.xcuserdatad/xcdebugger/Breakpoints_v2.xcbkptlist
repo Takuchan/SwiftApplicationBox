@@ -3,4 +3,70 @@
    uuid = "C13E84C5-E5DD-4DF9-BCEE-7E22F33C62C5"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E292D6A-0DA3-42E1-AAAB-9A6A04A072BA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JudgeAIAge/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "keyboardWillShow(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1E292D6A-0DA3-42E1-AAAB-9A6A04A072BA - b31ec2e488167abf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JudgeAIAge.ViewController.keyboardWillShow(Foundation.Notification) -&gt; ()"
+                  moduleName = "JudgeAIAge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matsu/Documents/GitHub/swiftapplication/JudgeAIAge/JudgeAIAge/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "325">
+               </Location>
+               <Location
+                  uuid = "1E292D6A-0DA3-42E1-AAAB-9A6A04A072BA - b31ec2e488167abf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JudgeAIAge.ViewController.keyboardWillShow(Foundation.Notification) -&gt; ()"
+                  moduleName = "JudgeAIAge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/matsu/Documents/GitHub/swiftapplication/JudgeAIAge/JudgeAIAge/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "387">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F51F4119-E252-4139-8EEA-3280E8DEFEA6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JudgeAIAge/CustomTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "5"
+            endingLineNumber = "5"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
