@@ -66,7 +66,7 @@ class ViewController: UIViewController ,UITableViewDelegate,UITableViewDataSourc
             talkpeople.append("あーたん")
             imagetalker.append("woman.png")
         }else{
-            talkhistory.append("もっと若いよ")
+            talkhistory.append("違うよ！")
             talkpeople.append("あーたん")
             imagetalker.append("woman.png")
         }
