@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var text = ""
+    
     var body: some View {
         VStack {
             Text("お前の入力した文字は")
