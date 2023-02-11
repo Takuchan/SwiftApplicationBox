@@ -13,7 +13,7 @@ import SwiftUI
 struct MusicPlay{
     static let ongen = try!  AVAudioPlayer(data: NSDataAsset(name: "64kbpsSubtitle")!.data)
     static func play(){
-        MusicPlay.ongen.currentTime = 0.0
+        MusicPlay.ongen.currentTime = 10.0
         MusicPlay.ongen.play()
     }
     

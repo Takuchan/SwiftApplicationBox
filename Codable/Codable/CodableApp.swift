@@ -12,7 +12,7 @@ struct CodableApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView{
-                ContentView()
+                ContentView(stopOngen: false)
             }
           
         }

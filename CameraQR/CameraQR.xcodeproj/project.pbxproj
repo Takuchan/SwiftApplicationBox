@@ -7,67 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08A72729298F748F006221FF /* CodableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A72728298F748F006221FF /* CodableApp.swift */; };
-		08A7272B298F748F006221FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A7272A298F748F006221FF /* ContentView.swift */; };
-		08A72730298F7491006221FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A7272F298F7491006221FF /* Preview Assets.xcassets */; };
-		08A7273A298F7492006221FF /* CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A72739298F7492006221FF /* CodableTests.swift */; };
-		08A72744298F7492006221FF /* CodableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A72743298F7492006221FF /* CodableUITests.swift */; };
-		08A72746298F7492006221FF /* CodableUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A72745298F7492006221FF /* CodableUITestsLaunchTests.swift */; };
-		08A72753298F74A4006221FF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A72752298F74A4006221FF /* Model.swift */; };
-		08A72755298F7652006221FF /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A72754298F7652006221FF /* EditView.swift */; };
-		08A72757298F77F4006221FF /* data.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A72756298F77F4006221FF /* data.xcassets */; };
-		08A72759298F7818006221FF /* MusicPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A72758298F7818006221FF /* MusicPlay.swift */; };
+		0872713C2997D9C90011C654 /* CameraQRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0872713B2997D9C90011C654 /* CameraQRApp.swift */; };
+		0872713E2997D9C90011C654 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0872713D2997D9C90011C654 /* ContentView.swift */; };
+		087271402997D9CB0011C654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0872713F2997D9CB0011C654 /* Assets.xcassets */; };
+		087271432997D9CB0011C654 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087271422997D9CB0011C654 /* Preview Assets.xcassets */; };
+		0872714D2997D9CB0011C654 /* CameraQRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0872714C2997D9CB0011C654 /* CameraQRTests.swift */; };
+		087271572997D9CB0011C654 /* CameraQRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087271562997D9CB0011C654 /* CameraQRUITests.swift */; };
+		087271592997D9CB0011C654 /* CameraQRUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087271582997D9CB0011C654 /* CameraQRUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		08A72736298F7492006221FF /* PBXContainerItemProxy */ = {
+		087271492997D9CB0011C654 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 08A7271D298F748F006221FF /* Project object */;
+			containerPortal = 087271302997D9C90011C654 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 08A72724298F748F006221FF;
-			remoteInfo = Codable;
+			remoteGlobalIDString = 087271372997D9C90011C654;
+			remoteInfo = CameraQR;
 		};
-		08A72740298F7492006221FF /* PBXContainerItemProxy */ = {
+		087271532997D9CB0011C654 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 08A7271D298F748F006221FF /* Project object */;
+			containerPortal = 087271302997D9C90011C654 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 08A72724298F748F006221FF;
-			remoteInfo = Codable;
+			remoteGlobalIDString = 087271372997D9C90011C654;
+			remoteInfo = CameraQR;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08A72725298F748F006221FF /* Codable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Codable.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		08A72728298F748F006221FF /* CodableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableApp.swift; sourceTree = "<group>"; };
-		08A7272A298F748F006221FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		08A7272F298F7491006221FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		08A72735298F7492006221FF /* CodableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		08A72739298F7492006221FF /* CodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableTests.swift; sourceTree = "<group>"; };
-		08A7273F298F7492006221FF /* CodableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		08A72743298F7492006221FF /* CodableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableUITests.swift; sourceTree = "<group>"; };
-		08A72745298F7492006221FF /* CodableUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		08A72752298F74A4006221FF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		08A72754298F7652006221FF /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
-		08A72756298F77F4006221FF /* data.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = data.xcassets; sourceTree = "<group>"; };
-		08A72758298F7818006221FF /* MusicPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlay.swift; sourceTree = "<group>"; };
+		087271382997D9C90011C654 /* CameraQR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraQR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0872713B2997D9C90011C654 /* CameraQRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraQRApp.swift; sourceTree = "<group>"; };
+		0872713D2997D9C90011C654 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0872713F2997D9CB0011C654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		087271422997D9CB0011C654 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		087271482997D9CB0011C654 /* CameraQRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraQRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0872714C2997D9CB0011C654 /* CameraQRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraQRTests.swift; sourceTree = "<group>"; };
+		087271522997D9CB0011C654 /* CameraQRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraQRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		087271562997D9CB0011C654 /* CameraQRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraQRUITests.swift; sourceTree = "<group>"; };
+		087271582997D9CB0011C654 /* CameraQRUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraQRUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		08A72722298F748F006221FF /* Frameworks */ = {
+		087271352997D9C90011C654 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		08A72732298F7492006221FF /* Frameworks */ = {
+		087271452997D9CB0011C654 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		08A7273C298F7492006221FF /* Frameworks */ = {
+		0872714F2997D9CB0011C654 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,145 +71,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08A7271C298F748F006221FF = {
+		0872712F2997D9C90011C654 = {
 			isa = PBXGroup;
 			children = (
-				08A72727298F748F006221FF /* Codable */,
-				08A72738298F7492006221FF /* CodableTests */,
-				08A72742298F7492006221FF /* CodableUITests */,
-				08A72726298F748F006221FF /* Products */,
+				0872713A2997D9C90011C654 /* CameraQR */,
+				0872714B2997D9CB0011C654 /* CameraQRTests */,
+				087271552997D9CB0011C654 /* CameraQRUITests */,
+				087271392997D9C90011C654 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		08A72726298F748F006221FF /* Products */ = {
+		087271392997D9C90011C654 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				08A72725298F748F006221FF /* Codable.app */,
-				08A72735298F7492006221FF /* CodableTests.xctest */,
-				08A7273F298F7492006221FF /* CodableUITests.xctest */,
+				087271382997D9C90011C654 /* CameraQR.app */,
+				087271482997D9CB0011C654 /* CameraQRTests.xctest */,
+				087271522997D9CB0011C654 /* CameraQRUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		08A72727298F748F006221FF /* Codable */ = {
+		0872713A2997D9C90011C654 /* CameraQR */ = {
 			isa = PBXGroup;
 			children = (
-				08A72728298F748F006221FF /* CodableApp.swift */,
-				08A7272A298F748F006221FF /* ContentView.swift */,
-				08A7272E298F7491006221FF /* Preview Content */,
-				08A72752298F74A4006221FF /* Model.swift */,
-				08A72754298F7652006221FF /* EditView.swift */,
-				08A72756298F77F4006221FF /* data.xcassets */,
-				08A72758298F7818006221FF /* MusicPlay.swift */,
+				0872713B2997D9C90011C654 /* CameraQRApp.swift */,
+				0872713D2997D9C90011C654 /* ContentView.swift */,
+				0872713F2997D9CB0011C654 /* Assets.xcassets */,
+				087271412997D9CB0011C654 /* Preview Content */,
 			);
-			path = Codable;
+			path = CameraQR;
 			sourceTree = "<group>";
 		};
-		08A7272E298F7491006221FF /* Preview Content */ = {
+		087271412997D9CB0011C654 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				08A7272F298F7491006221FF /* Preview Assets.xcassets */,
+				087271422997D9CB0011C654 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		08A72738298F7492006221FF /* CodableTests */ = {
+		0872714B2997D9CB0011C654 /* CameraQRTests */ = {
 			isa = PBXGroup;
 			children = (
-				08A72739298F7492006221FF /* CodableTests.swift */,
+				0872714C2997D9CB0011C654 /* CameraQRTests.swift */,
 			);
-			path = CodableTests;
+			path = CameraQRTests;
 			sourceTree = "<group>";
 		};
-		08A72742298F7492006221FF /* CodableUITests */ = {
+		087271552997D9CB0011C654 /* CameraQRUITests */ = {
 			isa = PBXGroup;
 			children = (
-				08A72743298F7492006221FF /* CodableUITests.swift */,
-				08A72745298F7492006221FF /* CodableUITestsLaunchTests.swift */,
+				087271562997D9CB0011C654 /* CameraQRUITests.swift */,
+				087271582997D9CB0011C654 /* CameraQRUITestsLaunchTests.swift */,
 			);
-			path = CodableUITests;
+			path = CameraQRUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		08A72724298F748F006221FF /* Codable */ = {
+		087271372997D9C90011C654 /* CameraQR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08A72749298F7492006221FF /* Build configuration list for PBXNativeTarget "Codable" */;
+			buildConfigurationList = 0872715C2997D9CB0011C654 /* Build configuration list for PBXNativeTarget "CameraQR" */;
 			buildPhases = (
-				08A72721298F748F006221FF /* Sources */,
-				08A72722298F748F006221FF /* Frameworks */,
-				08A72723298F748F006221FF /* Resources */,
+				087271342997D9C90011C654 /* Sources */,
+				087271352997D9C90011C654 /* Frameworks */,
+				087271362997D9C90011C654 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Codable;
-			productName = Codable;
-			productReference = 08A72725298F748F006221FF /* Codable.app */;
+			name = CameraQR;
+			productName = CameraQR;
+			productReference = 087271382997D9C90011C654 /* CameraQR.app */;
 			productType = "com.apple.product-type.application";
 		};
-		08A72734298F7492006221FF /* CodableTests */ = {
+		087271472997D9CB0011C654 /* CameraQRTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08A7274C298F7492006221FF /* Build configuration list for PBXNativeTarget "CodableTests" */;
+			buildConfigurationList = 0872715F2997D9CB0011C654 /* Build configuration list for PBXNativeTarget "CameraQRTests" */;
 			buildPhases = (
-				08A72731298F7492006221FF /* Sources */,
-				08A72732298F7492006221FF /* Frameworks */,
-				08A72733298F7492006221FF /* Resources */,
+				087271442997D9CB0011C654 /* Sources */,
+				087271452997D9CB0011C654 /* Frameworks */,
+				087271462997D9CB0011C654 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				08A72737298F7492006221FF /* PBXTargetDependency */,
+				0872714A2997D9CB0011C654 /* PBXTargetDependency */,
 			);
-			name = CodableTests;
-			productName = CodableTests;
-			productReference = 08A72735298F7492006221FF /* CodableTests.xctest */;
+			name = CameraQRTests;
+			productName = CameraQRTests;
+			productReference = 087271482997D9CB0011C654 /* CameraQRTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		08A7273E298F7492006221FF /* CodableUITests */ = {
+		087271512997D9CB0011C654 /* CameraQRUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08A7274F298F7492006221FF /* Build configuration list for PBXNativeTarget "CodableUITests" */;
+			buildConfigurationList = 087271622997D9CB0011C654 /* Build configuration list for PBXNativeTarget "CameraQRUITests" */;
 			buildPhases = (
-				08A7273B298F7492006221FF /* Sources */,
-				08A7273C298F7492006221FF /* Frameworks */,
-				08A7273D298F7492006221FF /* Resources */,
+				0872714E2997D9CB0011C654 /* Sources */,
+				0872714F2997D9CB0011C654 /* Frameworks */,
+				087271502997D9CB0011C654 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				08A72741298F7492006221FF /* PBXTargetDependency */,
+				087271542997D9CB0011C654 /* PBXTargetDependency */,
 			);
-			name = CodableUITests;
-			productName = CodableUITests;
-			productReference = 08A7273F298F7492006221FF /* CodableUITests.xctest */;
+			name = CameraQRUITests;
+			productName = CameraQRUITests;
+			productReference = 087271522997D9CB0011C654 /* CameraQRUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		08A7271D298F748F006221FF /* Project object */ = {
+		087271302997D9C90011C654 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					08A72724298F748F006221FF = {
+					087271372997D9C90011C654 = {
 						CreatedOnToolsVersion = 14.2;
 					};
-					08A72734298F7492006221FF = {
+					087271472997D9CB0011C654 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 08A72724298F748F006221FF;
+						TestTargetID = 087271372997D9C90011C654;
 					};
-					08A7273E298F7492006221FF = {
+					087271512997D9CB0011C654 = {
 						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 08A72724298F748F006221FF;
+						TestTargetID = 087271372997D9C90011C654;
 					};
 				};
 			};
-			buildConfigurationList = 08A72720298F748F006221FF /* Build configuration list for PBXProject "Codable" */;
+			buildConfigurationList = 087271332997D9C90011C654 /* Build configuration list for PBXProject "CameraQR" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 08A7271C298F748F006221FF;
-			productRefGroup = 08A72726298F748F006221FF /* Products */;
+			mainGroup = 0872712F2997D9C90011C654;
+			productRefGroup = 087271392997D9C90011C654 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				08A72724298F748F006221FF /* Codable */,
-				08A72734298F7492006221FF /* CodableTests */,
-				08A7273E298F7492006221FF /* CodableUITests */,
+				087271372997D9C90011C654 /* CameraQR */,
+				087271472997D9CB0011C654 /* CameraQRTests */,
+				087271512997D9CB0011C654 /* CameraQRUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		08A72723298F748F006221FF /* Resources */ = {
+		087271362997D9C90011C654 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08A72757298F77F4006221FF /* data.xcassets in Resources */,
-				08A72730298F7491006221FF /* Preview Assets.xcassets in Resources */,
+				087271432997D9CB0011C654 /* Preview Assets.xcassets in Resources */,
+				087271402997D9CB0011C654 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		08A72733298F7492006221FF /* Resources */ = {
+		087271462997D9CB0011C654 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		08A7273D298F7492006221FF /* Resources */ = {
+		087271502997D9CB0011C654 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,52 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		08A72721298F748F006221FF /* Sources */ = {
+		087271342997D9C90011C654 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08A72759298F7818006221FF /* MusicPlay.swift in Sources */,
-				08A72753298F74A4006221FF /* Model.swift in Sources */,
-				08A7272B298F748F006221FF /* ContentView.swift in Sources */,
-				08A72755298F7652006221FF /* EditView.swift in Sources */,
-				08A72729298F748F006221FF /* CodableApp.swift in Sources */,
+				0872713E2997D9C90011C654 /* ContentView.swift in Sources */,
+				0872713C2997D9C90011C654 /* CameraQRApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		08A72731298F7492006221FF /* Sources */ = {
+		087271442997D9CB0011C654 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08A7273A298F7492006221FF /* CodableTests.swift in Sources */,
+				0872714D2997D9CB0011C654 /* CameraQRTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		08A7273B298F7492006221FF /* Sources */ = {
+		0872714E2997D9CB0011C654 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08A72744298F7492006221FF /* CodableUITests.swift in Sources */,
-				08A72746298F7492006221FF /* CodableUITestsLaunchTests.swift in Sources */,
+				087271592997D9CB0011C654 /* CameraQRUITestsLaunchTests.swift in Sources */,
+				087271572997D9CB0011C654 /* CameraQRUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		08A72737298F7492006221FF /* PBXTargetDependency */ = {
+		0872714A2997D9CB0011C654 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 08A72724298F748F006221FF /* Codable */;
-			targetProxy = 08A72736298F7492006221FF /* PBXContainerItemProxy */;
+			target = 087271372997D9C90011C654 /* CameraQR */;
+			targetProxy = 087271492997D9CB0011C654 /* PBXContainerItemProxy */;
 		};
-		08A72741298F7492006221FF /* PBXTargetDependency */ = {
+		087271542997D9CB0011C654 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 08A72724298F748F006221FF /* Codable */;
-			targetProxy = 08A72740298F7492006221FF /* PBXContainerItemProxy */;
+			target = 087271372997D9C90011C654 /* CameraQR */;
+			targetProxy = 087271532997D9CB0011C654 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		08A72747298F7492006221FF /* Debug */ = {
+		0872715A2997D9CB0011C654 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -367,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		08A72748298F7492006221FF /* Release */ = {
+		0872715B2997D9CB0011C654 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -421,23 +409,20 @@
 			};
 			name = Release;
 		};
-		08A7274A298F7492006221FF /* Debug */ = {
+		0872715D2997D9CB0011C654 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Codable/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CameraQR/Preview Content\"";
 				DEVELOPMENT_TEAM = QD2MBVB859;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = subtitle..;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -445,7 +430,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.takuchan.apple-test.Codable";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takuchan.sample.CameraQR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -453,23 +438,20 @@
 			};
 			name = Debug;
 		};
-		08A7274B298F7492006221FF /* Release */ = {
+		0872715E2997D9CB0011C654 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Codable/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CameraQR/Preview Content\"";
 				DEVELOPMENT_TEAM = QD2MBVB859;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = subtitle..;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -477,7 +459,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.takuchan.apple-test.Codable";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takuchan.sample.CameraQR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -485,7 +467,7 @@
 			};
 			name = Release;
 		};
-		08A7274D298F7492006221FF /* Debug */ = {
+		087271602997D9CB0011C654 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -496,16 +478,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.takuchan.apple-test.CodableTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takuchan.sample.CameraQRTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Codable.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Codable";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CameraQR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CameraQR";
 			};
 			name = Debug;
 		};
-		08A7274E298F7492006221FF /* Release */ = {
+		087271612997D9CB0011C654 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -516,16 +498,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.takuchan.apple-test.CodableTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takuchan.sample.CameraQRTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Codable.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Codable";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CameraQR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CameraQR";
 			};
 			name = Release;
 		};
-		08A72750298F7492006221FF /* Debug */ = {
+		087271632997D9CB0011C654 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -534,16 +516,16 @@
 				DEVELOPMENT_TEAM = QD2MBVB859;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.takuchan.apple-test.CodableUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takuchan.sample.CameraQRUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Codable;
+				TEST_TARGET_NAME = CameraQR;
 			};
 			name = Debug;
 		};
-		08A72751298F7492006221FF /* Release */ = {
+		087271642997D9CB0011C654 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -552,55 +534,55 @@
 				DEVELOPMENT_TEAM = QD2MBVB859;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.takuchan.apple-test.CodableUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takuchan.sample.CameraQRUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Codable;
+				TEST_TARGET_NAME = CameraQR;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		08A72720298F748F006221FF /* Build configuration list for PBXProject "Codable" */ = {
+		087271332997D9C90011C654 /* Build configuration list for PBXProject "CameraQR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				08A72747298F7492006221FF /* Debug */,
-				08A72748298F7492006221FF /* Release */,
+				0872715A2997D9CB0011C654 /* Debug */,
+				0872715B2997D9CB0011C654 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		08A72749298F7492006221FF /* Build configuration list for PBXNativeTarget "Codable" */ = {
+		0872715C2997D9CB0011C654 /* Build configuration list for PBXNativeTarget "CameraQR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				08A7274A298F7492006221FF /* Debug */,
-				08A7274B298F7492006221FF /* Release */,
+				0872715D2997D9CB0011C654 /* Debug */,
+				0872715E2997D9CB0011C654 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		08A7274C298F7492006221FF /* Build configuration list for PBXNativeTarget "CodableTests" */ = {
+		0872715F2997D9CB0011C654 /* Build configuration list for PBXNativeTarget "CameraQRTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				08A7274D298F7492006221FF /* Debug */,
-				08A7274E298F7492006221FF /* Release */,
+				087271602997D9CB0011C654 /* Debug */,
+				087271612997D9CB0011C654 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		08A7274F298F7492006221FF /* Build configuration list for PBXNativeTarget "CodableUITests" */ = {
+		087271622997D9CB0011C654 /* Build configuration list for PBXNativeTarget "CameraQRUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				08A72750298F7492006221FF /* Debug */,
-				08A72751298F7492006221FF /* Release */,
+				087271632997D9CB0011C654 /* Debug */,
+				087271642997D9CB0011C654 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 08A7271D298F748F006221FF /* Project object */;
+	rootObject = 087271302997D9C90011C654 /* Project object */;
 }

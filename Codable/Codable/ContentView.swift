@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var data = Model.sampledata
-    @State private var stopOngen : Bool = false
+    @State var stopOngen : Bool
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -17,7 +17,11 @@ struct ContentView: View {
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
             Button(action:{
-                stopOngen.toggle()
+                if(stopOngen){
+                    stopOngen = false
+                }else{
+                    stopOngen = true
+                }
             }){
                 Text("音源スタートORストップ" + String(stopOngen))
             }
@@ -46,6 +50,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(stopOngen: (false))
     }
 }
