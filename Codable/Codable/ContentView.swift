@@ -26,7 +26,9 @@ struct ContentView: View {
                     
                     NavigationLink(destination: EditView(data: $result, stopOngen: $stopOngen)){
                         Text(result.title)
+                            
                     }
+                    
                 }
             }
             Button(action:{
