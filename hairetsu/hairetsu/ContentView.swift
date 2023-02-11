@@ -8,12 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var list : [String] = []
+    var count : Int = 0
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Button(action: {
+                let days = 31
+                let firstDay = 2
+                var w = 0
+                while w < firstDay {
+                    print("    ",terminator: "")
+                    w+=1
+                }
+                var d = 1
+                loop
+            }){
+               Text("ここほれ")
+            }
         }
         .padding()
     }
