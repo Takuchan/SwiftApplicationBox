@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var isShow : Bool = false
     enum TabTitle:String{
         case tab1 = "Me!"
         case tab2 = "交換済み"
@@ -22,6 +24,7 @@ struct ContentView: View {
                         Image(systemName: "person")
                         Text(TabTitle.tab1.rawValue)
                     }
+                    
                 }
                 .tag(TabTitle.tab1)
             ExchangedView()
@@ -37,6 +40,22 @@ struct ContentView: View {
         .onChange(of: selectedTab){ tab in
             navigationTitle = tab.rawValue
         }
+        .toolbar{
+            ToolbarItem{
+                Button(action:{
+                    isShow = true
+                }){
+                    Text("マイアカウント追加")
+                }
+            }
+        }
+        .sheet(isPresented:$isShow){
+            EditView()
+                .presentationDetents([.medium,.large])
+            
+            
+        }
+        
         
         
     }

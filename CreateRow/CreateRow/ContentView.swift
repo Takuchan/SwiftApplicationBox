@@ -1,9 +1,4 @@
-//
-//  ContentView.swift
-//  CreateRow
-//
-//  Created by 松村拓洋 on 2023/02/11.
-//
+
 
 import SwiftUI
 
