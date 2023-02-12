@@ -6,6 +6,18 @@
 //
 
 import SwiftUI
+import AVFoundation
+
+enum RecordingStatus{
+    case ready
+    case start
+    case stop
+    
+}
+
+public protocol CameraViewDelegate:AnyObject{
+    func didFinishRecording(outputFileURL:URL)
+}
 
 struct ContentView: View {
     var body: some View {
