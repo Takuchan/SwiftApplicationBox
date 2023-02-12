@@ -10,9 +10,7 @@ import SwiftUI
 struct MyProfileView: View {
 
     var body: some View {
-        VStack{
-            Text("おはよう")
-        }
+        Text("おはよう")
     }
 }
 

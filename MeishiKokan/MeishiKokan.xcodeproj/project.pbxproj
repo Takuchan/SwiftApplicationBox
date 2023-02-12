@@ -16,6 +16,7 @@
 		0886010F2998A2CD00E2D76E /* MeishiKokanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0886010E2998A2CD00E2D76E /* MeishiKokanUITestsLaunchTests.swift */; };
 		0886011D2998A33100E2D76E /* ExchangedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0886011C2998A33100E2D76E /* ExchangedView.swift */; };
 		0886011F2998A3DE00E2D76E /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0886011E2998A3DE00E2D76E /* MyProfileView.swift */; };
+		088601242998AE1A00E2D76E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088601232998AE1A00E2D76E /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		0886010E2998A2CD00E2D76E /* MeishiKokanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeishiKokanUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0886011C2998A33100E2D76E /* ExchangedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangedView.swift; sourceTree = "<group>"; };
 		0886011E2998A3DE00E2D76E /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
+		088601232998AE1A00E2D76E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		088600F02998A2CB00E2D76E /* MeishiKokan */ = {
 			isa = PBXGroup;
 			children = (
+				088601222998AE1200E2D76E /* Model */,
 				0886011B2998A31A00E2D76E /* View */,
 				088600F12998A2CB00E2D76E /* MeishiKokanApp.swift */,
 				088600F32998A2CB00E2D76E /* ContentView.swift */,
@@ -139,6 +142,14 @@
 				0886011E2998A3DE00E2D76E /* MyProfileView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		088601222998AE1200E2D76E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				088601232998AE1A00E2D76E /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				088601242998AE1A00E2D76E /* Model.swift in Sources */,
 				0886011F2998A3DE00E2D76E /* MyProfileView.swift in Sources */,
 				088600F42998A2CB00E2D76E /* ContentView.swift in Sources */,
 				0886011D2998A33100E2D76E /* ExchangedView.swift in Sources */,

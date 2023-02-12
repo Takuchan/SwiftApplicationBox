@@ -37,11 +37,7 @@ struct ContentView: View {
         .onChange(of: selectedTab){ tab in
             navigationTitle = tab.rawValue
         }
-        .toolbar{
-            Button(action:{}){
-                Image(systemName: "plus")
-            }
-        }
+        
         
     }
 }
