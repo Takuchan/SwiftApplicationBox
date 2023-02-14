@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Model:Identifiable{
+struct Model:Identifiable,Codable{
     let id : UUID
     var full_name : String
     var register_account : [Accounts]
@@ -22,7 +22,7 @@ struct Model:Identifiable{
 }
 
 extension Model{
-    struct Accounts : Identifiable{
+    struct Accounts : Identifiable,Codable{
         let id : UUID
         let service_name : String
         var user_id : String
@@ -34,11 +34,21 @@ extension Model{
     }
     
     struct Data{
-        var data : [Accounts] = []
+        var full_name :String = ""
+        var register_account : [Accounts] = []
     }
     
     var data:Data{
-        Data(data: register_account)
+        Data(full_name: full_name, register_account:register_account)
     }
     
+}
+
+extension Model{
+    static let sampleData:[Model] = [
+        Model(full_name: "松村拓洋", register_account: [Accounts(service_name: "gh", user_id: "takuchan"),
+                                                    Accounts(service_name: "gh", user_id: "takuchan"),
+                                                    Accounts(service_name: "gh", user_id: "takuchan"),
+                                                    Accounts(service_name: "gh", user_id: "takuchan"),])
+    ]
 }

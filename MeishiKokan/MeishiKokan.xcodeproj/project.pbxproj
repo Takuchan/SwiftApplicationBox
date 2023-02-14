@@ -19,6 +19,7 @@
 		0886011F2998A3DE00E2D76E /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0886011E2998A3DE00E2D76E /* MyProfileView.swift */; };
 		088601242998AE1A00E2D76E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088601232998AE1A00E2D76E /* Model.swift */; };
 		088601262998DD2800E2D76E /* ModelStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088601252998DD2800E2D76E /* ModelStore.swift */; };
+		08F95A6E2999F2B300A35357 /* ProfileAccountCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F95A6D2999F2B300A35357 /* ProfileAccountCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		0886011E2998A3DE00E2D76E /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
 		088601232998AE1A00E2D76E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		088601252998DD2800E2D76E /* ModelStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelStore.swift; sourceTree = "<group>"; };
+		08F95A6D2999F2B300A35357 /* ProfileAccountCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAccountCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		088600F02998A2CB00E2D76E /* MeishiKokan */ = {
 			isa = PBXGroup;
 			children = (
+				08F95A6C2999F29E00A35357 /* Card */,
 				088601222998AE1200E2D76E /* Model */,
 				0886011B2998A31A00E2D76E /* View */,
 				088600F12998A2CB00E2D76E /* MeishiKokanApp.swift */,
@@ -156,6 +159,14 @@
 				088601252998DD2800E2D76E /* ModelStore.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		08F95A6C2999F29E00A35357 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				08F95A6D2999F2B300A35357 /* ProfileAccountCard.swift */,
+			);
+			path = Card;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +302,7 @@
 				088601242998AE1A00E2D76E /* Model.swift in Sources */,
 				088601262998DD2800E2D76E /* ModelStore.swift in Sources */,
 				0886011F2998A3DE00E2D76E /* MyProfileView.swift in Sources */,
+				08F95A6E2999F2B300A35357 /* ProfileAccountCard.swift in Sources */,
 				088600F42998A2CB00E2D76E /* ContentView.swift in Sources */,
 				086E4D5F2998E4250074764E /* EditView.swift in Sources */,
 				0886011D2998A33100E2D76E /* ExchangedView.swift in Sources */,
