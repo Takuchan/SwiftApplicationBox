@@ -46,7 +46,7 @@ extension Model{
 
 extension Model{
     static let sampleData:[Model] = [
-        Model(full_name: "松村拓洋", register_account: [Accounts(service_name: "gh", user_id: "takuchan"),
+        Model(full_name: "たく", register_account: [Accounts(service_name: "gh", user_id: "takuchan"),
                                                     Accounts(service_name: "gh", user_id: "takuchan"),
                                                     Accounts(service_name: "gh", user_id: "takuchan"),
                                                     Accounts(service_name: "gh", user_id: "takuchan"),])
