@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08042EA9299DAA7F0069ED59 /* ProfileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08042EA8299DAA7F0069ED59 /* ProfileCard.swift */; };
+		08042EAB299DAD060069ED59 /* ServiceName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08042EAA299DAD060069ED59 /* ServiceName.swift */; };
 		086E4D5F2998E4250074764E /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086E4D5E2998E4250074764E /* EditView.swift */; };
 		088600F22998A2CB00E2D76E /* MeishiKokanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088600F12998A2CB00E2D76E /* MeishiKokanApp.swift */; };
 		088600F42998A2CB00E2D76E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088600F32998A2CB00E2D76E /* ContentView.swift */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08042EA8299DAA7F0069ED59 /* ProfileCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCard.swift; sourceTree = "<group>"; };
+		08042EAA299DAD060069ED59 /* ServiceName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceName.swift; sourceTree = "<group>"; };
 		086E4D5E2998E4250074764E /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		088600EE2998A2CB00E2D76E /* MeishiKokan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeishiKokan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		088600F12998A2CB00E2D76E /* MeishiKokanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeishiKokanApp.swift; sourceTree = "<group>"; };
@@ -157,6 +161,7 @@
 			children = (
 				088601232998AE1A00E2D76E /* Model.swift */,
 				088601252998DD2800E2D76E /* ModelStore.swift */,
+				08042EAA299DAD060069ED59 /* ServiceName.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				08F95A6D2999F2B300A35357 /* ProfileAccountCard.swift */,
+				08042EA8299DAA7F0069ED59 /* ProfileCard.swift */,
 			);
 			path = Card;
 			sourceTree = "<group>";
@@ -304,8 +310,10 @@
 				0886011F2998A3DE00E2D76E /* MyProfileView.swift in Sources */,
 				08F95A6E2999F2B300A35357 /* ProfileAccountCard.swift in Sources */,
 				088600F42998A2CB00E2D76E /* ContentView.swift in Sources */,
+				08042EA9299DAA7F0069ED59 /* ProfileCard.swift in Sources */,
 				086E4D5F2998E4250074764E /* EditView.swift in Sources */,
 				0886011D2998A33100E2D76E /* ExchangedView.swift in Sources */,
+				08042EAB299DAD060069ED59 /* ServiceName.swift in Sources */,
 				088600F22998A2CB00E2D76E /* MeishiKokanApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

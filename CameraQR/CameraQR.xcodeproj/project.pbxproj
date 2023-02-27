@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0808D4EF29A39A7F001FE358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		087271382997D9C90011C654 /* CameraQR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraQR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0872713B2997D9C90011C654 /* CameraQRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraQRApp.swift; sourceTree = "<group>"; };
 		0872713D2997D9C90011C654 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +95,7 @@
 		0872713A2997D9C90011C654 /* CameraQR */ = {
 			isa = PBXGroup;
 			children = (
+				0808D4EF29A39A7F001FE358 /* Info.plist */,
 				0872713B2997D9C90011C654 /* CameraQRApp.swift */,
 				0872713D2997D9C90011C654 /* ContentView.swift */,
 				0872713F2997D9CB0011C654 /* Assets.xcassets */,
@@ -420,6 +422,7 @@
 				DEVELOPMENT_TEAM = QD2MBVB859;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CameraQR/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +452,7 @@
 				DEVELOPMENT_TEAM = QD2MBVB859;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CameraQR/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
